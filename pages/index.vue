@@ -2,6 +2,7 @@
  <div>
   <Navbar/>
   <Mainslider/>
+  <HomePaketa/>
   <Homeabout/>
   <HomeServices/>
   <Footer/>

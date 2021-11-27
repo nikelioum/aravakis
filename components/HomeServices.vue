@@ -3,7 +3,7 @@
       <div class="container home-services text-center">
           <div class="row">
               <div class="col-md-12 mb-3">
-                  <h3>Πακέτα Ανακαίνισης</h3>
+                  <h3>DIY Κάντο μόνος σου</h3>
               </div>
           </div>
           <div class="row">
