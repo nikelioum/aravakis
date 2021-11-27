@@ -13,7 +13,7 @@
                        <input
                        type="hidden"
                        name="_redirect"
-                       value="https://aravakis.netlify.app/newsletter.vue"
+                       value="https://aravakis.netlify.app"
                        />
                        <button type="submit" class="btn btn-primary">ΕΓΓΡΑΦΗ</button>
                        </div>
