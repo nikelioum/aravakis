@@ -17,27 +17,33 @@
               <div class="row">
                   <div class="col-md-6">
                       <h3>Το μήνυμα σας</h3>
-                      <form class="contact-form">
+                      <form action="https://submit-form.com/pgMjBBuU" class="contact-form">
+
+                      <input
+                       type="hidden"
+                       name="_redirect"
+                       value="https://aravakis.netlify.app"
+                       />
 
                           <div class="mb-3">
                           <label for="exampleInputEmail1" class="form-label">Διεύθυνση Email</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                           <div id="emailHelp" class="form-text">Δεν μοιραζόμαστε την ηλεκτρονική σας διεύθυνση με εξωτερικές πηγές.</div>
                           </div>
 
                           <div class="mb-3">
                           <label for="exampleInputEmail1" class="form-label">Ονοματεπώνυμο</label>
-                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <input type="text" name="full_name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                           </div>
 
                           <div class="mb-3">
                           <label for="exampleInputEmail1" class="form-label">Τηλέφωνο</label>
-                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <input type="text" name="phone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                           </div>
 
                           <div class="mb-3">
                           <label for="exampleFormControlTextarea1" class="form-label">Το μήνυμα σας</label>
-                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                          <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                           </div>
 
                           <button type="submit" class="btn btn-outline-dark btn-phone-dark">
