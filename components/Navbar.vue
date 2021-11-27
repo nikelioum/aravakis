@@ -25,7 +25,7 @@
         <li class="nav-item">
           <NuxtLink to="/contact" class="nav-link">ΕΠΙΚΟΙΝΩΝΙΑ</NuxtLink>
         </li>
-           <li class="nav-item ms-auto">
+           <li class="nav-item">
                <a class="btn btn-outline-dark btn-phone-dark" href="tel:2102020220">
                    ΚΑΛΕΣΤΕ ΜΑΣ ΓΙΑ ΠΡΟΣΦΟΡΑ
                </a>

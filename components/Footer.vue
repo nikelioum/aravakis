@@ -9,7 +9,7 @@
                      <div class="position-relative">
                      <form action="https://submit-form.com/FaaI71zX" class="align-items-center position-absolute top-0 start-50 translate-middle" style="margin-top:40px;">
                        <div class="input-group">
-                       <input type="email" name="email" class="form-control" id="email" placeholder="Εγγραφή με το Email...">
+                       <input type="email" name="email" class="form-control" id="email" placeholder="Εγγραφή με το Email..." required>
                        <input
                        type="hidden"
                        name="_redirect"
@@ -34,6 +34,9 @@
                         </li>
                     </ul>
                 </div>
+                <div class="col-md-12 text-center">
+                    <a class="credits" href="/" target="_blank">Design & Development by Dimitris Liaropoulos</a>
+                </div>
             </div>
         </div>
     </div>
@@ -46,6 +49,13 @@ export default{
 </script>
 
 <style scoped>
+
+a.credits {
+    color: #000000b8;
+    font-weight: 300;
+    text-decoration: none !important;
+}
+
 .footer{
     padding: 40px;
     font-family: 'Ubuntu Mono';

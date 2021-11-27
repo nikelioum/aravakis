@@ -6,7 +6,7 @@ export default {
   head: {
     title: 'Aravakis Construction',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'el'
     },
     meta: [
       { charset: 'utf-8' },
@@ -16,18 +16,16 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    script: [
+      { src: 'https://code.jquery.com/jquery-2.2.4.min.js' },
+      { src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js' }
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '@/assets/css/bootstrap.min.css'
-  ],
-
-  script: [
-    {
-      src: '@/assets/js/bootstrap.min.js'
-    }
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
