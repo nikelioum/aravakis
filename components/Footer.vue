@@ -7,9 +7,9 @@
                 </div>
                 <div class="col-md-12">
                      <div class="position-relative">
-                     <form class="align-items-center position-absolute top-0 start-50 translate-middle" style="margin-top:40px;">
+                     <form action="https://submit-form.com/FaaI71zX" class="align-items-center position-absolute top-0 start-50 translate-middle" style="margin-top:40px;">
                        <div class="input-group">
-                       <input type="email" class="form-control" id="email" placeholder="Εγγραφή με το Email...">
+                       <input type="email" name="email" class="form-control" id="email" placeholder="Εγγραφή με το Email...">
                        <button type="submit" class="btn btn-primary">ΕΓΓΡΑΦΗ</button>
                        </div>
                      </form>
