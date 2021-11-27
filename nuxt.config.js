@@ -24,8 +24,10 @@ export default {
     '@/assets/css/bootstrap.min.css'
   ],
 
-  js:[
-    '@assets/js/bootstrap.min.js'
+  script: [
+    {
+      src: '@/assets/js/bootstrap.min.js'
+    }
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

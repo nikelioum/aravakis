@@ -7,7 +7,7 @@
               </div>
           </div>
           <div class="row">
-              <div v-for="mountain of mountains" class="col-md-4">
+              <div v-for="mountain of mountains" class="col-md-4 d-flex align-items-stretch mb-4">
                 <div class="card shadow-sm">
                 <img :src="mountain.acf.image" class="card-img-top" alt="">
                 <div class="card-body">
