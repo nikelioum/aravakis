@@ -7,7 +7,7 @@
               </div>
           </div>
           <div class="row">
-              <div v-for="mountain of mountains" class="col-md-4 d-flex align-items-stretch mb-4">
+              <div v-for="mountain of mountains.slice(0, 3)" class="col-md-4 d-flex align-items-stretch mb-4">
                 <div class="card shadow-sm">
                 <img :src="mountain.acf.image" class="card-img-top"  height="300">
                 <div class="card-body">
@@ -16,6 +16,11 @@
                 <nuxt-link to="" class="btn btn-outline-dark btn-phone-dark">Περισσότερα</nuxt-link>
                 </div>
                 </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <nuxt-link to="/blog" class="btn btn-lg btn-aravakis">ΔΙΑΒΑΣΤΕ ΠΕΡΙΣΣΟΤΕΡΑ</nuxt-link>
             </div>
           </div>
       </div>    
@@ -47,5 +52,19 @@ export default {
     border-left: none;
     border-right: none;
     border-top: none;
+}
+
+a.btn.btn-lg.btn-aravakis {
+    border-radius: 0px;
+    border-color: black;
+    border-width: 3px;
+}
+
+a.btn.btn-lg.btn-aravakis:hover {
+    border-radius: 0px;
+    border-color: black;
+    border-width: 3px;
+    color: white;
+    background-color: black;
 }
 </style>
