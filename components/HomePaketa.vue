@@ -38,6 +38,9 @@ export default {
 </script>
 
 <style scoped>
+h3 {
+    font-family: "Ubuntu Mono";
+}
 .home-services{
     font-family: 'Ubuntu Mono';
     margin-top: 30px;

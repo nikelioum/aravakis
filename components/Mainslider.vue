@@ -94,7 +94,6 @@ h3.text-center {
     font-family: 'Ubuntu Mono';
 }
 
-
 .swiper {
   height: 900px;
   overflow: hidden;
@@ -125,7 +124,7 @@ h3.text-center {
     padding: 10px;
 }
 
-..swiper-pagination-bullet {
+.swiper-pagination-bullet {
     background-color: aliceblue !important;
     padding: 10px;
 }
