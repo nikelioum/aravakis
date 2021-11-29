@@ -21,7 +21,7 @@
                     <h3>Όροι χρήσης</h3>
                 </div>
                 <div class="col-md-12">
-                    <div v-html="mountain.content"></div>
+                    <div v-html="mountain.acf.body"></div>
                 </div>
             </div>
         </div>

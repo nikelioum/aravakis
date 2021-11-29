@@ -40,7 +40,7 @@ export default{
     },
     async fetch() {
       this.mountain = await fetch(
-        'https://wordpress-534216-2279478.cloudwaysapps.com/wp-json/wp/v2/static_pages/91?author=1?_fields=acf&acf_format=standard'
+        'https://wordpress-534216-2279478.cloudwaysapps.com/wp-json/wp/v2/static_pages/90?author=1?_fields=acf&acf_format=standard'
       ).then(res => res.json())
     }
 

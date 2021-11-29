@@ -21,7 +21,7 @@
                     <h3>Η Εταιρεία μας</h3>
                 </div>
                 <div class="col-md-6">
-                    <div v-html="mountain.content"></div>
+                    <div v-html="mountain.acf.body"></div>
                 </div>
                 <div class="col-md-6">
                     <img class="img-fluid mb-2" src="~/assets/images/wall1.jpeg">
@@ -44,7 +44,7 @@ export default{
     },
     async fetch() {
       this.mountain = await fetch(
-        'https://wordpress-534216-2279478.cloudwaysapps.com/wp-json/wp/v2/posts/63'
+        'https://wordpress-534216-2279478.cloudwaysapps.com/wp-json/wp/v2/static_pages/89?author=1?_fields=acf&acf_format=standard'
       ).then(res => res.json())
     }
 
