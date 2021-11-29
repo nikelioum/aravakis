@@ -21,7 +21,8 @@
                     <h3>Προσωπικά δεδομένα</h3>
                 </div>
                 <div class="col-md-12">
-                    <div v-html="mountain.content"></div>
+                    <div v-html="mountain.acf.body">
+                    </div>
                 </div>
             </div>
         </div>
@@ -39,7 +40,7 @@ export default{
     },
     async fetch() {
       this.mountain = await fetch(
-        'https://wordpress-534216-2279478.cloudwaysapps.com/wp-json/wp/v2/posts/61'
+        'https://wordpress-534216-2279478.cloudwaysapps.com/wp-json/wp/v2/static_pages/91?author=1?_fields=acf&acf_format=standard'
       ).then(res => res.json())
     }
 
