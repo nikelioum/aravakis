@@ -27,7 +27,7 @@
                 <div class="card-body">
                 <h5 class="card-title">{{mountain.acf.title}}</h5>
                 <p class="card-text">{{mountain.acf.description}}</p>
-                <nuxt-link to="" class="btn btn-outline-dark btn-phone-dark">Περισσότερα</nuxt-link>
+                <nuxt-link :to="`services/${mountain.slug}`" class="btn btn-outline-dark btn-phone-dark">Περισσότερα</nuxt-link>
                 </div>
                 </div>
             </div>
